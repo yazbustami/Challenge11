@@ -1,8 +1,6 @@
-Note-Taker
+Note-Taker - Challenge 11
 LIVE LINK: https://yas-note-taker.herokuapp.com
 GITHUB REPO: https://github.com/yazbustami/Challenge11
-
-
 SC: 
 
 

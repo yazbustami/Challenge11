@@ -1,6 +1,16 @@
 [
-    {
-        "title":"Test Title",
-        "text":"Test text"
+  null,
+  {
+    "title": "Apples",
+    "text": "Bananas",
+    "id": {
+      "title": "Test Title",
+      "text": "Test text"
     }
+  },
+  {
+    "title": "applessssss",
+    "text": "bananassss\n",
+    "id": null
+  }
 ]
