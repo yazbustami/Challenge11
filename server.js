@@ -71,3 +71,11 @@ function DelNote(id, NArray) {
     }
 }
 
+app.delete('/api/notes/:id', (req, res) => {
+    DelNote(req.params.id, fileNotes);
+    res.json(true);
+});
+
+app.listen(PORT, () => {
+    console.log('API server ${PORT}!');
+});
