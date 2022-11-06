@@ -57,6 +57,17 @@ app.post('/api/notes', (req, res) => {
 
 function DelNote(id, NArray) {
     for (let i = 0; i < NArray.lrngth; i++) {
-        let theNotes = NArray[i]
+        let theNotes = NArray[i];
+
+        if (theNotes.id == id) {
+            NArray.splice(i,1);
+            fs.writeFileSync(
+                path.join(__dirname, './db/db.jscon'),
+                JSON.stringify(NArray, null, 2)
+            );
+
+            break;
+        }
     }
 }
+
