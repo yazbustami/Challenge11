@@ -1,7 +1,8 @@
 Note-Taker - Challenge 11
 LIVE LINK: https://yas-note-taker.herokuapp.com
 GITHUB REPO: https://github.com/yazbustami/Challenge11
-SC: 
+SC:<img width="1501" alt="NOTE TAKE SC1" src="https://user-images.githubusercontent.com/111784041/200195766-986c25a8-716d-448c-bee2-b4c948b729cc.png">
+<img width="1497" alt="NOTE TAKE SCT" src="https://user-images.githubusercontent.com/111784041/200195856-39a11cfc-75d5-4a3e-869e-7548c7bad188.png">
 
 
 The purpose of this assignment is to create a Note Taking app using Express.js
